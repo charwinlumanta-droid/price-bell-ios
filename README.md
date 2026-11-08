@@ -1,12 +1,18 @@
 # ICC Price Bell for iPhone — GitHub edition
 
+**Live iPhone app:** [Open Price Bell](https://charwinlumanta-droid.github.io/price-bell-ios/)  
+**Detailed setup guide:** [Install on iPhone](https://charwinlumanta-droid.github.io/price-bell-ios/INSTALL-ON-IPHONE.html)  
+**GitHub repository:** [charwinlumanta-droid/price-bell-ios](https://github.com/charwinlumanta-droid/price-bell-ios)
+
+Published and checked on 8 November 2026. Open the live app in iPhone Safari to install it.
+
 Install this app on an iPhone from **Safari → Share → Add to Home Screen**. A Windows PC is enough to publish it. No Mac, Xcode, Apple developer account, or App Store submission is needed for this web-app installation.
 
 This repository contains an installable **web app**. Downloading the repository ZIP onto an iPhone does not install it. GitHub Pages supplies the secure website address Safari needs.
 
 ## 1. Make sure the website has published
 
-If the delivery already includes a tested live app link, skip this section and open that link on your iPhone. Otherwise:
+The app is already published at the live link above. Continue to section 2 to install it. For later updates or deployment troubleshooting:
 
 1. On Windows, sign in to the GitHub account that owns this repository.
 2. Open the **price-bell-ios** repository, then **Settings → Pages**.
@@ -16,7 +22,7 @@ If the delivery already includes a tested live app link, skip this section and o
 6. Open the newest run. Wait until both **build** and **deploy** have green check marks. The engine tests must pass before publication.
 7. Return to **Settings → Pages**. Click **Visit site** or copy the HTTPS address shown there. Open it and confirm the ICC logo and Price Bell controls appear.
 
-The site address normally has this form: `https://YOUR-GITHUB-USERNAME.github.io/price-bell-ios/`.
+The published site address is [https://charwinlumanta-droid.github.io/price-bell-ios/](https://charwinlumanta-droid.github.io/price-bell-ios/).
 
 **Use the actual address shown by GitHub only after a successful deployment and a working site check.** Keep its final slash and repository path. GitHub free accounts normally require a public repository for Pages; only application source is included here.
 

@@ -23,8 +23,9 @@ Actual browser live-feed checks passed in a new isolated development profile:
   Queue, and entered saved History with provider event time.
 
 Audio was mocked to keep development tests silent. These checks are not
-physical iPhone/Safari, speaker-volume, Home Screen installation, or GitHub Pages
-deployment tests. Test sound and a real level after installing on your phone.
+physical iPhone/Safari, speaker-volume, or Home Screen installation tests.
+GitHub Pages deployment and hosted-file checks are recorded below.
+Test sound and a real level after installing on your phone.
 
 Foreground behavior
 Live direct quotes and repeating local sound run while this app stays open.
@@ -47,9 +48,19 @@ The ready-to-publish package includes index.html, app.js, engine.js, style.css,
 manifest.webmanifest, service-worker.js, logo/icons and the installation guide.
 This copy includes a GitHub Actions workflow that runs engine tests, builds
 13 allowlisted app/guide/icon files into dist/, and publishes that folder to
-GitHub Pages. Repository owner selection and actual deployment are pending.
-Use the actual HTTPS URL from a successful Pages deployment; no live URL is
-claimed by this local package. No user settings or private credentials are
+GitHub Pages. Published on 8 November 2026 under charwinlumanta-droid.
+Repository: https://github.com/charwinlumanta-droid/price-bell-ios
+Live app: https://charwinlumanta-droid.github.io/price-bell-ios/
+Hosted guide: https://charwinlumanta-droid.github.io/price-bell-ios/INSTALL-ON-IPHONE.html
+Confirmed successful run: https://github.com/charwinlumanta-droid/price-bell-ios/actions/runs/42460765788
+Source commit: 58bcdcf. Both build and deploy jobs completed successfully.
+All 13 public website files returned HTTP 200 with the expected content types
+and were byte-identical to the locally prepared build before the live-link
+guide update. This live-link guide release uses service-worker cache VERSION v2.
+After publication, close all app windows and reopen online so the complete
+updated shell can activate while retaining saved levels and history.
+Physical iPhone/Safari installation, speaker sound, and locked-screen device
+behavior remain untested. No user settings or private credentials are
 included in the repository or static website package.
 
 Compatibility

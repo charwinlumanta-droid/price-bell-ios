@@ -1,6 +1,6 @@
 'use strict';
 // Change this version only when publishing a complete new app-shell release.
-const VERSION = 'v1.3.1-pages-1';
+const VERSION = 'v2';
 const CACHE_PREFIX = 'icc-price-bell-iphone-' + encodeURIComponent(self.registration.scope) + '-';
 const CACHE_NAME = CACHE_PREFIX + VERSION;
 const SHELL_FILES = [
