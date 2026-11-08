@@ -1,0 +1,33 @@
+{
+  "id": "./",
+  "name": "ICC Price Bell",
+  "short_name": "Price Bell",
+  "description": "Your price levels, queue and bell history. Live monitoring works while the app stays open.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#061b21",
+  "theme_color": "#061b21",
+  "lang": "en",
+  "orientation": "any",
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any"
+    },
+    {
+      "src": "icons/icon-maskable-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ]
+}

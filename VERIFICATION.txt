@@ -1,0 +1,68 @@
+ICC PRICE BELL — IPHONE GITHUB PAGES EDITION
+Version 1.3.1 web app
+
+This deliverable installs from Safari through Add to Home Screen once hosted
+at an HTTPS address. No Mac, Xcode, Apple developer account, or signed IPA is
+needed for that web-app installation. It is a web app, not an App Store binary.
+
+Inherited application validation: 73 checks passed before repository packaging:
+- 17 pure alert-engine checks: strict fresh/matching packets, one-shot movement,
+  Queue-to-History, source timestamps, immutable rearm, 20-target/500-history
+  limits, backup validation and migration.
+- 18 service-worker checks: same-origin shell caching, excluded market/API/auth
+  requests, scoped cleanup, release-consistent HTML/assets, offline fallbacks.
+- 38 Chromium browser checks: 390px/320px navigation, controls and logo, saved
+  queue/history before sound, pause/resume, rearm, failed-crossing save retry,
+  pending Start/Test cancellation, late wake-lock release, hidden-screen stop,
+  offline reopening, invalid backup import, and another-window data conflicts.
+
+Actual browser live-feed checks passed in a new isolated development profile:
+- Deriv stpRNG: observed 7283.5; temporary threshold 0 triggered, left Queue,
+  and entered saved History with provider event time.
+- Binance BTCUSDT: observed 75712.64; temporary threshold 0 triggered, left
+  Queue, and entered saved History with provider event time.
+
+Audio was mocked to keep development tests silent. These checks are not
+physical iPhone/Safari, speaker-volume, Home Screen installation, or GitHub Pages
+deployment tests. Test sound and a real level after installing on your phone.
+
+Foreground behavior
+Live direct quotes and repeating local sound run while this app stays open.
+Leaving the screen, locking the phone, closing it, or losing internet pauses
+the session. Reopen and tap Start monitoring. Cached files can reopen the
+interface offline; no new live price can be checked while offline.
+
+For locked-screen messages, keep Windows Price Bell monitoring and connect
+Telegram there. This web app has no cloud price monitor or Web Push backend.
+It never asks you to enter a Telegram bot token.
+
+Data
+Targets and History are saved in this site/browser's local storage. Export a
+backup before changing the site address or clearing website data. Use one
+active Home Screen desk; another window changing saved data pauses/reloads
+the current desk, and pre-save checks reject unseen updates.
+
+Hosting
+The ready-to-publish package includes index.html, app.js, engine.js, style.css,
+manifest.webmanifest, service-worker.js, logo/icons and the installation guide.
+This copy includes a GitHub Actions workflow that runs engine tests, builds
+13 allowlisted app/guide/icon files into dist/, and publishes that folder to
+GitHub Pages. Repository owner selection and actual deployment are pending.
+Use the actual HTTPS URL from a successful Pages deployment; no live URL is
+claimed by this local package. No user settings or private credentials are
+included in the repository or static website package.
+
+Compatibility
+Use iOS 15.4 or later, preferably the latest supported iOS on the phone.
+The application uses crypto.randomUUID, Object.hasOwn and dialog.showModal.
+All app URLs and the manifest id/start_url/scope are relative, supporting
+the GitHub Pages project path /price-bell-ios/.
+
+Local repository preparation checks
+17 engine tests passed again in this GitHub repository copy.
+The dependency-free Node build completed with exactly 13 website files.
+GitHub Pages paths, manifest scope and service-worker shell were checked
+against a project URL under /price-bell-ios/.
+The ZIP contains repository source at its root, including the hidden
+.github/workflows/pages.yml and .nojekyll files; dist/ and .git/ are excluded.
+
